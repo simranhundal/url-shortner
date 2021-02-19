@@ -4,7 +4,7 @@ print("Enter Url to be shortened")
 url = input()
 
 # hiding my api key use provided executable file for testing
-api_key = "d1833b1413e2b9d027b12a37f1ee0745a1bd8"
+api_key = "my api key"
 # using cuttly api with key and given url to make shortened link
 api_url = f"https://cutt.ly/api/api.php?key={api_key}&short={url}"
 
